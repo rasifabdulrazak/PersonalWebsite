@@ -54,6 +54,12 @@ a:hover {
 .box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
+.qwerty{
+  min-height: 30rem;
+}
+/* .brocamp{
+  min-height: 20rem;
+} */
 
 .box-shadow-a, .button:hover {
   text-decoration: none;
@@ -809,7 +815,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
-.counter-box {
+/* .counter-box {
   color: #fff;
   text-align: center;
 }
@@ -832,7 +838,7 @@ a:hover {
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -842,9 +848,16 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 10px;
+  min-height: 21rem;
+
+
 }
 .work-box:hover img {
   transform: scale(1.3);
+}
+.be{
+  border-radius: 10px;
 }
 
 .work-img {
@@ -937,8 +950,8 @@ a:hover {
 
 /*--------------------------------------------------------------
 # Testimonials
---------------------------------------------------------------*/
-.testimonial-box {
+/* --------------------------------------------------------------*/
+/* .testimonial-box {
   color: #fff;
   text-align: center;
 }
@@ -995,7 +1008,7 @@ a:hover {
 }
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
-}
+}  */
 
 /*--------------------------------------------------------------
 # Contact
@@ -1098,6 +1111,9 @@ a:hover {
   .card-blog {
     margin-bottom: 3rem;
   }
+}
+.card-blog{
+  min-height: 36rem;
 }
 .card-blog .card-body {
   position: relative;
@@ -1268,7 +1284,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #0582ff;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1284,7 +1300,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #2987f3;
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -1302,4 +1318,20 @@ footer .credits a {
 }
 #work{
   background: #c9c9c9;
+}
+
+.btn:hover{
+  background: #ff4242;
+  color: #1B1B1B;
+
+}
+/* .hi{
+  height: 11.6rem;
+
+}
+.ki{
+  height: 10.8rem;
+} */
+@media only screen and (max-width: 600px){
+  
 }
