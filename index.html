@@ -681,7 +681,7 @@
                       </h5>
                     </div>
                     <div>
-                      <form role="form" id="submit-form">
+                      <form role="form" id="submit-form" action="">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -794,35 +794,7 @@
   <script src="assets/js/main.js"></script>
 
 
-  <script>
-    $("#submit-form").submit((e)=>{
-
-      def=1;
-        e.preventDefault()
-        validation()
-        emailpart()
-        mobilepart()
-        messagepart()
-        if(def==5){
-
-
-        $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbwV3CZni70BnOezJ4c7htuXiuLPUMijejJZ55awpGV5iZdwr1WffJmr3MCnL3o1gNxS9A/exec",
-            data:$("#submit-form").serialize(),
-            method:"post",
-            success:function (response){
-                alert("Form submitted successfully")
-                window.location.reload()
-                //window.location.href="https://google.com"
-            },
-            error:function (err){
-                alert("Something Error")
-
-            }
-        })
-      }
-    })
-</script>
+  
 
 
 
