@@ -1335,3 +1335,6 @@ footer .credits a {
 @media only screen and (max-width: 600px){
   
 }
+.errormsg{
+  color:red;
+}
