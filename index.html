@@ -4,820 +4,1143 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>RasifAbdulRazak</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Portfolio - Mohammed Rasif</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/image_prof.jpeg" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: DevFolio - v4.7.1
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-      <h1 class="logo"><a href="index.html">Python Engineer</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Experience</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Experience</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul> -->
-          </li> 
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://twitter.com/rasifabdulrazak?t=qnQt1P63An6dkcbvVaWnBA&s=09" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100009139948294" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/rasif_abdul_razak/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/rasifabdulrazak" class="google-plus"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohammed-rasif-056419211" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
 
     </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/bho.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">Mohammed Rasif</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Python Developer, Django Expert, REST API Engineer, Backend Engineer, Full-Stack Developer"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Python<span class="accent-text">Engineer</span></h1>
+                <h2>Mohammed Rasif</h2>
+                <p class="lead">I'm a <span class="typed" data-typed-items="Python Developer, Full-Stack Developer, Django Expert, Rest API Engineer"></span></p>
+                <p class="description">Python backend Engineer passionate about building robust and scalable APIs. Specialize in designing efficient database schemas,
+managing Docker-based deployments, and creating CI/CD pipelines. Integrate AI to solve complex business challenges.</p>
+
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                  <!-- <a href="#"><i class="bi bi-dribbble"></i></a>
+                  <a href="#"><i class="bi bi-behance"></i></a> -->
+                  <a href="https://github.com/rasifabdulrazak"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/mohammed-rasif-056419211"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/person/profile.png" alt="Mohammed Rasif" class="profile-image">
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/person/otd.png" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>Mohammed Rasif</h3>
+                <p class="profession">Python Engineer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:rasifrazak123@gmail.com" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    rasifrazak123@gmail.com
+                  </a>
+                  <a href="tel:+91 9744088812" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +91 9744088812
+                  </a>
+                  <a href="https://maps.app.goo.gl/7eb7a7dqvFUC6Kdr7" target="_blank" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    Kerala, India
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Python for Scalable Solutions</h2>
+              </div>
+
+              <div class="description">
+                <p>Passionate about building scalable APIs, efficient database schemas, and high-availability systems. Expertise in Docker-based deployments and CI/CD pipelines for seamless delivery.</p>
+
+                <p>I also integrate AI-driven solutions to solve complex business challenges with innovation and impact.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">10+</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">4+</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">98%</div>
+                  <div class="stat-label">On-Time Delivery</div>
+                </div>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Backend Engineer</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Senior Professional</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Education</span>
+                    <span class="detail-value">Computer Science, B-Tech</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">English,Malayalam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="assets/pdf/RasifPythonResume.pdf" target="_blank" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  Download Resume
+                </a>
+                <a href="https://wa.me/919744088812" target="_blank" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Deployment Success</p>
+              </div>
+              <!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="bi bi-pc-display"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1" class="purecounter"></span>
+                <p>System Performance</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="bi bi-bug-fill"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Bug Free</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Customer Support</p>
+              </div>
+              <!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+   <!-- Skills Section -->
+<section id="skills" class="skills section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <p>Mastering the tools and talents that drive success.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <!-- Frontend Skills -->
+      <div class="col-lg-6">
+        <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+          <h3>Front-end Development</h3>
+          <div class="skills-animation">
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>HTML/CSS</h4>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Semantic HTML5 and modern CSS3 techniques</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>JavaScript</h4>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">ES6+, DOM manipulation, modern frameworks</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>ReactJS</h4>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Hooks, state management, component architecture</div>
+            </div>
+
+          </div>
+        </div><!-- End Frontend Skills -->
+      </div>
+
+      <!-- Backend & Database Skills -->
+      <div class="col-lg-6">
+        <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+          <h3>Back-end & Database</h3>
+          <div class="skills-animation">
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Python</h4>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Python development with Django, DRF, FastAPI</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Django / DRF</h4>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Building scalable APIs and web apps</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>SQL</h4>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">PostgreSQL, MySQL, database design and queries</div>
+            </div>
+
+          </div>
+        </div><!-- End Backend Skills -->
+      </div>
+
+      <!-- DevOps & Tools Skills -->
+      <div class="col-lg-6 mt-4">
+        <div class="skills-category" data-aos="fade-up" data-aos-delay="400">
+          <h3>DevOps & Tools</h3>
+          <div class="skills-animation">
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Docker</h4>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Containerization, image building, and deployment</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>CI/CD</h4>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Version control and automated deployments</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Git</h4>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Version control using github,gitlab and bitbucket</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>AWS EC2</h4>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Cloud server setup, deployment, and management</div>
+            </div>
+
+          </div>
+        </div><!-- End DevOps Skills -->
+      </div>
+
+      <!-- AI & LLM Skills -->
+      <div class="col-lg-6 mt-4">
+        <div class="skills-category" data-aos="fade-up" data-aos-delay="500">
+          <h3>AI & LLM</h3>
+          <div class="skills-animation">
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>OpenAI API</h4>
+                <span class="skill-percentage">40%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Integration of OpenAI APIs for AI solutions</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>LangChain</h4>
+                <span class="skill-percentage">45%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">LLM orchestration and pipelines</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>LLM Fine-tuning & Function Calling</h4>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Custom fine-tuning and advanced function calling</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Browser-use</h4>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="skill-tooltip">Automation and advanced browser-based operations</div>
+            </div>
+
+          </div>
+        </div><!-- End AI Skills -->
+      </div>
+
     </div>
-  </div><!-- End Hero Section -->
+  </div>
 
-  <main id="main">
+</section><!-- /Skills Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                      <img src="assets/img/image_prof.jpeg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name : </span> <span>Mohammed Rasif</span></p>
-                        <p><span class="title-s">Email : </span> <span>rasifrazak123@gmail.com</span></p>
-                        <p><span class="title-s">Phone : </span> <span>+91 9744088812</span></p>
-                        <p>
-  <span class="title-s">LinkedIn: </span>
-  <a href="https://www.linkedin.com/in/rasif-abdul-razak-056419211" target="_blank" style="color: #00aced; text-decoration: none;">
-    View
-  </a>
-  &nbsp;|&nbsp;
-  <span class="title-s">GitHub: </span>
-  <a href="https://github.com/rasifabdulrazak" target="_blank" style="color: #00aced; text-decoration: none;">
-    View
-  </a>
-</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <div class="badges">
-                      <span class="badge-skill">Python</span>
-                      <span class="badge-skill">Django</span>
-                      <span class="badge-skill">SQL</span>
-                      <span class="badge-skill">CI/CD</span>
-                      <span class="badge-skill">Git</span>
-                      <span class="badge-skill">Docker</span>
-                      <span class="badge-skill">Flask</span>
-                      <span class="badge-skill">FastApi</span>
-                      <span class="badge-skill">Langchain</span>
-                      <span class="badge-skill">ec2</span>
-                      <span class="badge-skill">JavaScript</span>
-                      <span class="badge-skill">ReactJS</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-I am a Python backend developer passionate about building robust and scalable APIs. My expertise spans system design, crafting efficient database schemas, and optimizing application performance for high availability. I have hands-on experience in Docker-based deployments and in setting up CI/CD pipelines that ensure smooth, automated delivery of software. Beyond core backend engineering, I also integrate AI-driven solutions to address complex business challenges, combining strong fundamentals with innovation to deliver impactful results.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Services
-              </h3>
-              <p class="subtitle-a">
-               Services Providing
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-hdd-network"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Backend Development</h2>
-                <p class="s-description text-center">
-                  Design and implement scalable, secure, and maintainable backend systems using Python and its Frameworks.
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">API Development & Integration</h2>
-                <p class="s-description text-center">
-                  Build and document RESTful APIs for web and mobile applications, and integrate third-party services.
-                </p>
-              </div>
-            </div>
-          </div> -->
-          <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Database Design & Optimization</h2>
-                <p class="s-description text-center">
-                  Set up and manage efficient databases like PostgreSQL, MySQL, and SQLite, ensuring performance and reliability.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-cloud-upload"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title"> Application Deployment</h2>
-                <p class="s-description text-center">
-                 Deploy applications to cloud servers with production-ready Docker setups and secure environment management, integrated with CI/CD pipelines for seamless testing and delivery.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-               <span class="ico-circle"><i class="bi bi-box-seam"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Containerization with Docker</h2>
-                <p class="s-description text-center">
-                  Containerize applications using Docker for consistent development and deployment across environments.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-        <div class="service-box qwerty">
-          <div class="service-ico">
-            <span class="ico-circle"><i class="bi bi-cpu"></i></span>
-          </div>
-          <div class="service-content">
-            <h2 class="s-title">AI Integration & Automation</h2>
-            <p class="s-description text-center">
-              Integrate AI solutions into applications for intelligent automation, chatbots, predictive analytics, and decision-making workflows.
-            </p>
-          </div>
-        </div>
-      </div>
-          <div class="col-md-4">
-            <div class="service-box qwerty">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-tools"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Code Refactoring & Optimization</h2>
-                <p class="s-description text-center">
-                  Improve existing codebases for performance, readability, and scalability.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
+      <!-- Resume Section -->
+    <section id="resume" class="resume section">
 
-    <!-- ======= Counter Section ======= -->
-    <!-- <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Counter Section -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experience & Education</h2>
+        <p>A journey of learning and building.</p>
+      </div><!-- End Section Title -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="title-box text-center">
-                        <h3 class="title-a">My Works</h3>
-                        <p class="subtitle-a">Here are some of the projects I’ve worked on.</p>
-                        <div class="line-mf"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 1 - Image Left, Content Right -->
-            <div class="row work-card">
-                <div class="col-md-6">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/magic-rewards.png" alt="Magic Rewards" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="work-content">
-                        <h2 class="w-title">The Magic Rewards App</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Developed a rewards-based financial app focused on enhancing user engagement with gamified incentives. Built secure backend systems, integrated real-time financial APIs, and implemented real-time chat using sockets for user support and interaction. Optimized performance for high user activity and scalability.</p>
-                        <div class="w-more">
-                           <span class="w-ctegory">Fintech Application</span>
-<!-- <span class="w-tech">/ Django, REST API, Safegold API, Razorpay, WebSockets</span> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 2 - Content Left, Image Right -->
-            <div class="row work-card">
-                <div class="col-md-6 order-md-2">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/Otaxi.png" alt="Classroom Website" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <div class="work-content">
-                        <h2 class="w-title">Otaxi’s Taxi Booking System</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Developed a mobile-responsive web application for a large-scale taxi booking platform, allowing users to book long-term recurring taxi contracts. Built an efficient super admin panel to manage bookings and operations. Integrated Bank Muscat payment APIs for secure transactions and Google Maps APIs for location fetching and Distance calculation.</p>
-                        <div class="w-more">
-                            <span class="w-ctegory">Booking System</span>
-                            <!-- <span class="w-tech">/ HTML, CSS, Bootstrap</span> -->
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 3 - Image Left, Content Right -->
-            <div class="row work-card">
-                <div class="col-md-6">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/asap.png" alt="Tata Motors" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="work-content">
-                        <h2 class="w-title">ASAP Automated Attestation Platform</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Developed a premier automated attestation platform that streamlines document verification and processing across 90+ countries. The system guides users through each step—from uploading documents to tracking status updates—ensuring transparency and speed. Integrated Paymob APIs for secure online payments, enhancing the overall user experience with smooth and reliable transactions.</p>
-                        <div class="w-more">
-                            <span class="w-ctegory">Document Automation</span>
-                            <!-- <span class="w-tech">/ HTML, CSS</span> -->
-                        </div>
-                        <!-- <a target="_blank" href="https://rasifabdulrazak.github.io/webdesigntask2/" class="see-more-btn">
-                            See More <i class="bi bi-arrow-right"></i>
-                        </a> -->
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 4 - Content Left, Image Right -->
-            <div class="row work-card">
-                <div class="col-md-6 order-md-2">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/rms.png" alt="Samsung Website" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <div class="work-content">
-                        <h2 class="w-title">Tenant Rent & Expense Management System</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Built a complete platform to manage tenant rent, income, and expenses, with features like detailed balance sheets and real-time financial tracking. Successfully migrated 5 years of historical data to ensure smooth transition and continuity in operations.</p>
-                        <div class="w-more">
-                            <span class="w-ctegory">Rental & Finance</span>
-                            <!-- <span class="w-tech">/ HTML, CSS</span> -->
-                        </div>
-                        <!-- <a target="_blank" href="https://rasifabdulrazak.github.io/WebdesignTask1/" class="see-more-btn">
-                            See More <i class="bi bi-arrow-right"></i>
-                        </a> -->
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 5 - Image Left, Content Right -->
-            <div class="row work-card">
-                <div class="col-md-6">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/lkts.png" alt="Zomato Static" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="work-content">
-                        <h2 class="w-title">Real-Time Parcel Tracking Platform</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Developed a web-based parcel tracking system that allows users to monitor shipments in real time with detailed status updates and tracking history. Built a manageable and intuitive admin panel to oversee shipments, update delivery statuses, and handle operational controls efficiently. Designed for scalability, ease of use.</p>
-                        <div class="w-more">
-                            <span class="w-ctegory">Tracking System</span>
-                            <!-- <span class="w-tech">/ HTML, CSS</span> -->
-                        </div>
-                        <!-- <a target="_blank" href="https://rasifabdulrazak.github.io/webdesignTask3/" class="see-more-btn">
-                            See More <i class="bi bi-arrow-right"></i>
-                        </a> -->
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Card 6 - Content Left, Image Right -->
-            <div class="row work-card">
-                <div class="col-md-6 order-md-2">
-                    <div class="work-img-container">
-                        <div class="work-img-rounded">
-                            <img src="assets/img/persproj.jpg" alt="Responsive Zomato" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <div class="work-content">
-                        <h2 class="w-title">Personal Projects</h2>
-                        <span class="w-date"></span>
-                        <p class="w-description">Built several full-stack applications to explore real-world solutions and sharpen development skills. Notable projects include a feature-rich e-commerce platform with cart, checkout, payments, and order tracking, and a job portal system with role-based access for employers and candidates, job filtering, and application management. These projects showcase my ability to build scalable, user-centric web applications from the ground up.</p>
-                        <div class="w-more">
-                            <span class="w-ctegory">Personal</span>
-                            <!-- <span class="w-tech">/ HTML, CSS, Bootstrap</span> -->
-                        </div>
-                        <!-- <a target="_blank" href="https://rasifabdulrazak.github.io/zomatosite/" class="see-more-btn">
-                            See More <i class="bi bi-arrow-right"></i>
-                        </a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Portfolio Section -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Xavi Alonso</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div>End testimonial item -->
-<!-- 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div> -->
-                <!-- </div>End testimonial item -->
-              <!-- </div>
-              <div class="swiper-pagination"></div>
-            </div> -->
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
           
-        </div> -->
-          <!-- </div>
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Software Engineer</h4>
+                <h5>2024 December - 2025 August</h5>
+                <p class="company"><i class="bi bi-building"></i> Aurin IT.</p>
+                <ul>
+                  <li>Build secure and scalable APIs using Python and its frameworks.</li>
+                  <li>Design system and database architectures for efficient backend workflows.</li>
+                  <li>Manage server deployment and maintenance to ensure smooth operations</li>
+                  <li>Deliver high performance, code quality, and reliability across multiple web applications</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Software Engineer</h4>
+                <h5>2022 June - 2024 November</h5>
+                <p class="company"><i class="bi bi-building"></i> Metric Tree Labs.</p>
+                <ul>
+                  <li>Developed scalable APIs using Python and Django REST Framework (DRF).</li>
+                  <li>Implemented CI/CD pipelines and containerized applications with Docker for seamless deployments.</li>
+                  <li>Managed server maintenance and updates, ensuring high availability and reliability.</li>
+                  <li>Contributed to client projects by enforcing clean architecture, optimizing performance, and strengthening API security.</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Software Intern</h4>
+                <h5>2021 October - 2022 June</h5>
+                <p class="company"><i class="bi bi-building"></i> Brototype.</p>
+                <ul>
+                  <li>Completed an intensive self-learning program focused on full-stack development.</li>
+                  <li>Built multiple real-world projects from scratch, mastering Python, Django, REST APIs, and frontend tools.</li>
+                  <li>Gained hands-on experience in problem-solving, clean coding practices, and deployment.</li>
+                  <li>Established a strong foundation for professional growth and future development.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
+
+              <div class="resume-item">
+                <h4>Bachelor of Technology in Computer Science</h4>
+                <h5>2017 - 2021</h5>
+                <p class="company"><i class="bi bi-building"></i>LBS Engineering Collage</p>
+                <p>Specialized in Artificial Intelligence and Machine Learning. Graduated with honors.</p>
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <!-- <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
+
+              <div class="resume-item">
+                <h4>AWS Certified Solutions Architect - Professional</h4>
+                <h5>2023</h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Google Cloud Professional Architect</h4>
+                <h5>2022</h5>
+              </div>
+            </div> -->
+          </div>
         </div>
+
       </div>
-    </div>End Testimonials Section -->
 
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="title-box text-center">
-                        <h3 class="title-a">Experience</h3>
-                        <p class="subtitle-a">Technical Background & Learning Experience.</p>
-                        <div class="line-mf"></div>
-                    </div>
-                </div>
+    </section><!-- /Resume Section -->
+
+    <!--  -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>From concept to deployment, here’s my work.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All Projects</li>
+                  <li data-filter=".filter-fintech">Fintech</li>
+                  <li data-filter=".filter-realestate">Real-Estate</li>
+                  <li data-filter=".filter-booking">Booking</li>
+                  <li data-filter=".filter-tracking">Tracking</li>
+                </ul>
+              </div>
             </div>
-            
-            <div class="row">
-                <!-- Card 1 -->
-                <div class="col-md-4 pt-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a target="_blank" href="">
-                                <img src="assets/img/aur.png" 
-                                     alt="LBS College Logo" 
-                                     class="college-logo"
-                                     >
-                            </a>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-fintech">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/magic-rewards.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Magic Rewards</span>
+                        <h4>Fintech</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/magic-rewards.png" class="glightbox" title="Fintech"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=magic-rewards" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
-                        
-                        <div class="card-body">
-                            <!-- <div class="text-center mb-3">
-                                <a target="_blank" href="https://aurinit.com/">
-                                    <button type="button" class="btn btn-success btn-visit">Visit Site</button>
-                                </a>
-                            </div> -->
-                            
-                            <h3 class="card-title text-center">
-                                <a href="">Aurin IT</a>
-                            </h3>
-                            
-                            <p class="card-description">
-                                Backend engineer focused on building secure and scalable APIs using Python and its Framework. Responsible for designing system and database architecture, implementing efficient backend workflows, and handling server deployment and ongoing maintenance. Ensuring high performance, code quality, and reliability across multiple web applications.
-                            </p>
-                            
-                            <div class="departments">
-                                <span class="dept-tag">Decemeber 2024</span> to
-                                <span class="dept-tag">August 2025</span>
-                            </div>
-                        </div>
-                        
-                        <div class="card-footer">
-                            <div class="footer-item">
-                                <i class="bi bi-geo-alt footer-icon"></i>
-                                <a target="_blank" href="" class="footer-text">
-                                    Calicut, Kerala
-                                </a>
-                            </div>
-                            
-                           
-                        </div>
+                      </div>
                     </div>
-                </div>
-                
-                <!-- Card 2 -->
-                <div class="col-md-4 pt-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a target="_blank" href="https://www.metrictreelabs.com/">
-                                <img src="assets/img/mtl.png" 
-                                     alt="LBS College Logo" 
-                                     class="college-logo">
-                            </a>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-booking">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/Otaxi.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">O-Taxi</span>
+                        <h4>Online Booking</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/Otaxi.png" class="glightbox" title="Online Booking"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=otaxi" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
-                        
-                        <div class="card-body">
-                            <!-- <div class="text-center mb-3">
-                                <a target="_blank" href="https://www.metrictreelabs.com/">
-                                    <button type="button" class="btn btn-success btn-visit">Visit Site</button>
-                                </a>
-                            </div> -->
-                            
-                            <h3 class="card-title text-center">
-                                <a href="https://www.metrictreelabs.com/">Metric Tree Labs</a>
-                            </h3>
-                            
-                            <p class="card-description">
-                                Backend Engineer specializing in Python and Django REST Framework (DRF). Designed and developed scalable APIs, implemented CI/CD pipelines for automated testing and deployments, and containerized applications using Docker. Managed server maintenance and updates while ensuring high availability. Contributed to multiple client projects by enforcing clean architecture, optimizing performance, and implementing robust API security.
-                            </p>
-                            
-                            <div class="departments">
-                                <span class="dept-tag">July 2022</span> to
-                                <span class="dept-tag">November 2024</span>
-                            </div>
-                        </div>
-                        
-                        <div class="card-footer">
-                            <div class="footer-item">
-                                <i class="bi bi-geo-alt footer-icon"></i>
-                                <a target="_blank" href="https://www.metrictreelabs.com/" class="footer-text">
-                                    Kochi, Kerala
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
+                      </div>
                     </div>
-                </div>
-                
-                <!-- Card 3 -->
-                <div class="col-md-4 pt-4">
-                    <div class="card card-blog">
-                        <div class="card-img">
-                            <a target="_blank" href="https://www.brototype.com/">
-                                <img src="assets/img/bro.png" 
-                                     alt="LBS College Logo" 
-                                     class="college-logo">
-                            </a>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/asap.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Asap</span>
+                        <h4>Attestation Automation</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/asap.png" class="glightbox" title="Attestation Automation"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=asap" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
-                        
-                        <div class="card-body">
-                            <!-- <div class="text-center mb-3">
-                                <a target="_blank" href="https://www.brototype.com/">
-                                    <button type="button" class="btn btn-success btn-visit">Visit Site</button>
-                                </a>
-                            </div> -->
-                            
-                            <h3 class="card-title text-center">
-                                <a href="https://www.brototype.com/">Brototype</a>
-                            </h3>
-                            
-                            <p class="card-description">
-                                Engaged in an intensive self-learning program focused on full-stack development. Built multiple real-world projects from scratch while mastering core technologies like Python, Django, REST APIs, and frontend tools. Gained practical experience in problem-solving, clean coding practices, and project deployment. This phase laid a strong foundation for professional development.
-                            </p>
-                            <div class="departments">
-                                <span class="dept-tag">November 2021</span> to
-                                <span class="dept-tag">June 2022</span>
-                            </div>
-                        </div>
-                        
-                        <div class="card-footer">
-                            <div class="footer-item">
-                                <i class="bi bi-geo-alt footer-icon"></i>
-                                <a target="_blank" href="https://www.brototype.com/" class="footer-text">
-                                    Kochi, Kerala
-                                </a>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-realestate">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/rms.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">RMS</span>
+                        <h4>Real-Estate</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/rms.png" class="glightbox" title="Real-Estate"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=rms" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-tracking">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/lkts.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Cargo-Tracking</span>
+                        <h4>Tracking</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/lkts.png" class="glightbox" title="Tracking"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=tracking" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/persproj.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Personal Projects</span>
+                        <h4>Personal</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/persproj.jpg" class="glightbox" title="Personal"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html?id=personal" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+              </div><!-- End Portfolio Container -->
             </div>
+          </div>
+
         </div>
-    </section><!-- End Blog Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background: black;">
-      <div class="overlay-mf"></div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Offering backend development, system design, and scalable software solutions tailored to your business needs.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">
+                  <div>Scalable. Secure.</div>
+                  <div><span>Smart Solutions.</span></div>
+                </h2>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>
+                  Building scalable applications with expertise in frontend, backend, databases, and cloud infrastructure.
+                </p>
+                <a href="services.html" class="service-btn">
+                  View All Services
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-terminal-plus"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  Backend <span>Development</span>
+                </a>
+              </h3>
+              <p>
+                Design and implement scalable, secure, and maintainable backend systems using Python and its Frameworks.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-database-fill-lock"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  Database Design &<span>Optimization</span>
+                </a>
+              </h3>
+              <p>
+                Set up and manage efficient databases like PostgreSQL, MySQL, and SQLite, ensuring performance and reliability.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-rocket-takeoff-fill"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  Application <span>Deployment</span>
+                </a>
+              </h3>
+              <p>
+                Deploy servers using Docker with secure environment management, integrated CI/CD pipelines for testing and delivery.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  Containerization with<span>Docker</span>
+                </a>
+              </h3>
+              <p>
+                Containerize applications using Docker for consistent development and deployment across environments.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-openai"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  AI Integration &<span>Automation</span>
+                </a>
+              </h3>
+              <p>
+                Integrate AI solutions into applications for automation, chatbots and decision-making workflows.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <!-- <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a> -->
+              <h3>
+                <a href="service-details.html">
+                  Code Refactoring &<span>Optimization</span>
+                </a>
+              </h3>
+              <p>
+                Improve existing codebases for performance, readability, scalability and maintainability.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tips & Tricks</h2>
+        <p>Discover practical strategies, and expert insights that streamline projects and elevate your work quality.</p>
+      </div><!-- End Section Title -->
+
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                      Message me
-                      </h5>
-                    </div>
-                    <div>
-                      <form role="form" id="submit-form" action="">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" oninput="validation()">
-                            </div>
-                            <div class="errormsg"></div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="email" id="email" placeholder="Your Email" oninput="emailpart()" >
-                            </div>
-                            <div class="errormsg"></div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="number" class="form-control" name="Phone Number" id="subject" placeholder="Your Mobile Number" oninput="mobilepart()">
-                            </div>
-                            <div class="errormsg"></div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" id="Message" oninput="messagepart()"></textarea>
-                            </div>
-                            <div class="errormsg"></div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading"></div>
-                            <div class="error-message"></div>
-                            <div class="sent-message"></div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                      If you’re interested in collaborating on application development or have questions related to the technologies mentioned in my profile, feel free to reach out using the contact details provided. I welcome your messages, feedback, and opportunities to connect, as every new interaction brings valuable experiences and fresh perspectives.
-                      </p>
-                      <ul class="list-ico">
-                        <li><a  href="https://goo.gl/maps/a2J3aLVwAxcy9Zcd8" target="_blank"><span class="bi bi-geo-alt"></span></a> Calicut,Kerala,India</li>
-                        <li><span class="bi bi-phone"></span> +91 9744088812</li>
-                        <li><span class="bi bi-envelope"></span> rasifrazak123@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a  href="https://www.facebook.com/profile.php?id=100009139948294" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/rasif_abdul_razak/"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a target="_blank" href="https://twitter.com/rasifabdulrazak?t=qnQt1P63An6dkcbvVaWnBA&s=09"><span class="ico-circle"><i class="bi bi-x"></i></span></a></li>
-                        <li><a target="_blank"  href="https://www.linkedin.com/in/rasif-abdul-razak-056419211"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                        <li><a target="_blank"  href="https://github.com/rasifabdulrazak"><span class="ico-circle "><i class="bi bi-github"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
+
+        <div class="testimonial-masonry">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Focus on writing clean, readable code today—it saves hours of debugging tomorrow.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-code-slash" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Clean Code</h3>
+                  <!-- <span class="position">Strategy Director</span> -->
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>RasifAbdulRazak</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a target="_blank" href="https://rasifabdulrazak.github.io/PersonalWebsite/">RasifAbdulRazak</a>
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Keep learning. Technology evolves fast, and staying curious keeps you ahead.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-journal-bookmark" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Continuous Learning</h3>
+                  <!-- <span class="position">Chief Innovation Officer</span> -->
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Break big problems into smaller tasks—clarity leads to better solutions.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-lightbulb" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Problem Solving</h3>
+                  <!-- <span class="position">Digital Lead</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Good documentation is as valuable as good code—it makes collaboration seamless.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-file-text" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Documentation</h3>
+                  <!-- <span class="position">Technical Director</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Automate repetitive tasks and focus your energy on creativity and innovation.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-lightning-charge" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Productivity</h3>
+                  <!-- <span class="position">Product Manager</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Design systems with scalability in mind—today’s small project could be tomorrow’s enterprise solution.</p>
+              <div class="client-info">
+                <div class="client-image">
+  <i class="bi bi-rocket" style="font-size:2rem;"></i>
+</div>
+                <div class="client-details">
+                  <h3>Scalability</h3>
+                  <!-- <span class="position">UX Director</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let’s build something great together.
+Reach out to discuss projects, collaborations, or opportunities.
+I’m just a message away!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>Looking for scalable, modern software solutions?
+Get in touch and let’s bring your ideas to life.</p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>Malappuram , Kerala</p>
+                  <p>India</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+91 9744088812</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>rasifrazak123@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Have a project in mind or just want to connect?
+Feel free to drop me a message—I’d love to hear from you.</p>
+
+              <form action="" method="post" id="contactForm" class="php-email-form">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End  Footer -->
 
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/form.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
-
-  
-
-
-
-<script src="validation.js"></script>
 
 </body>
 

@@ -1,0 +1,155 @@
+{
+  "projects": {
+    "magic-rewards": {
+      "title": "Magic Rewards",
+      "overview": "Developed a rewards-based financial app focused on enhancing user engagement with gamified incentives. Built secure backend systems, integrated real-time financial APIs, and implemented real-time chat using sockets for user support and interaction. Optimized performance for high user activity and scalability.",
+      "image": "assets/img/portfolio/magic-rewards.png",
+      "category": "Fintech Application",
+      "Role": "Full Stack Developer",
+      "technologies": "DRF, React,Celery,Redis, PostgreSQL",
+      "key_features": [
+        {
+            "feature": "Implemented secure payment workflows with Razorpay, ensuring safe and seamless transactions. Integrated multiple payment methods with fraud detection and real-time verification.",
+            "heading":"Secure Payment Processing",
+            "icon": "bi-credit-card"
+        },
+        {
+            "feature": "Enabled real-time communication using DRF WebSockets for instant ticket support. Integrated SafeGold API to stream live gold prices, ensuring users receive accurate and timely updates.",
+            "heading":"Real-Time Communication",
+            "icon": "bi-chat"
+        },
+        {
+            "feature": "Integrated GitLab CI/CD pipelines to automate testing, build, and deployment processes. Ensured seamless continuous integration and delivery with faster release cycles and minimal downtime.",
+            "heading":"CI/CD",
+            "icon": "bi-cloud-upload"
+        },
+        {
+            "feature": "Implemented Google Sign-In with JWT authentication to provide secure and seamless user login. Combined OAuth2 with token-based sessions for enhanced security and a smooth onboarding experience.",
+            "heading":"JWT Authentication with Google Sign-In",
+            "icon": "bi-person-badge"
+        }
+      ]
+    },
+    "otaxi": {
+      "title": "O-Taxi",
+      "overview": "Developed a mobile-responsive web application for a large-scale taxi booking platform, allowing users to book long-term recurring taxi contracts. Built an efficient super admin panel to manage bookings and operations. Integrated Bank Muscat payment APIs for secure transactions and Google Maps APIs for location fetching and Distance calculation.",
+      "image": "assets/img/portfolio/Otaxi.png",
+      "category": "Taxi Booking Application",
+      "Role": "Backend Developer",
+      "technologies": "React, DRF,Celery, PostgreSQL",
+      "key_features": [
+        {
+            "feature": "Integrated BankMuscat payment gateway to enable secure and seamless digital transactions. Supported multiple payment methods with real-time verification, fraud detection, and compliance with banking standards.",
+            "heading":"Secure Payment Sollution",
+            "icon": "bi-credit-card-2-front"
+        },
+        {
+            "feature": "Implemented OTP-based authentication and user registration using iSmart SMS Gateway. Enabled secure account verification with real-time SMS delivery, ensuring reliability and enhanced user trust.",
+            "heading":"OTP Authentication",
+            "icon": "bi-shield-lock"
+        },
+        {
+            "feature": "Integrated Google Maps API to fetch live locations, calculate accurate distances, and optimize routes. Enhanced the taxi booking experience with precise geolocation, real-time navigation, and efficient trip planning.",
+            "heading":"Google Map Integration",
+            "icon": "bi-geo-alt"
+        },
+        {
+            "feature": "Developed a robust admin panel to manage taxi bookings, user accounts, and operational workflows. Implemented features for tracking rides, managing drivers, and generating reports to streamline business operations.",
+            "heading":"Admin Panel",
+            "icon": "bi-person-badge"
+        }
+      ]
+    },
+    "rms": {
+      "title": "RMS",
+      "overview": "Built a complete platform to manage tenant rent, income, and expenses, with features like detailed balance sheets and real-time financial tracking. Successfully migrated 5 years of historical data to ensure smooth transition and continuity in operations.",
+      "image": "assets/img/portfolio/rms.png",
+      "category": "Real Estate Management",
+      "Role": "Backend Developer",
+      "technologies": "React, DRF,Celery, PostgreSQL",
+      "key_features": [
+        {
+            "feature": "Implemented secure JWT-based authentication for seamless user login and session management. Enhanced platform security with token validation, refresh mechanisms, and smooth onboarding experience across devices.",
+            "heading":"JWT Authentication",
+            "icon": "bi-shield-lock"
+        },
+       {
+            "feature": "Integrated Firebase Cloud Messaging (FCM) to deliver real-time web push notifications. Enabled admins and managers to trigger instant alerts directly from the dashboard for critical events like adding, updating, or deleting records, ensuring timely communication and improved system monitoring.",
+            "heading": "Web Push Notifications",
+            "icon": "bi-bell"
+        },
+        {
+            "feature": "Successfully migrated 5+ years of historical data from Excel systems to the new platform. Applied validation checks to maintain data integrity, consistency, and accuracy throughout the process, ensuring a seamless transition with zero downtime and uninterrupted business operations.",
+            "heading": "Data Migration",
+            "icon": "bi-database"
+        }
+      ]
+    },
+    "asap": {
+      "title": "Asap Services",
+      "overview": "Developed a premier automated attestation platform that streamlines document verification and processing across 90+ countries. The system guides users through each step—from uploading documents to tracking status updates—ensuring transparency and speed. Integrated Paymob APIs for secure online payments, enhancing the overall user experience with smooth and reliable transactions.",
+      "image": "assets/img/portfolio/asap.png",
+      "category": "Attestation Automation",
+      "Role": "Backend Developer",
+      "technologies": "React, DRF,Celery, PostgreSQL",
+      "key_features": [
+        {
+            "feature": "Integrated Paymob payment gateway to enable secure and seamless digital transactions. Supported card payment methods with real-time verification, fraud detection, and compliance with banking standards.",
+            "heading":"Secure Payment Sollution",
+            "icon": "bi-credit-card-2-front"
+        },
+        {
+            "feature": "Implemented a robust notification system with multi-channel support, including email (via SMTP) and WhatsApp (via Meta API). Ensured timely delivery of alerts and updates to enhance user engagement and operational efficiency.",
+            "heading":"Notification System",
+            "icon": "bi-bell"
+        },
+        {
+            "feature": "Developed a comprehensive admin panel to manage users, documents, and attestation workflows. Provided real-time tracking of document status, user activities, and system performance, ensuring streamlined operations and improved service delivery.",
+            "heading": "Admin Panel",
+            "icon": "bi-speedometer2"
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Cargo Tracking",
+      "overview": "Developed a web-based parcel tracking system that allows users to monitor shipments in real time with detailed status updates and tracking history. Built a manageable and intuitive admin panel to oversee shipments, update delivery statuses, and handle operational controls efficiently. Designed for scalability, ease of use.",
+      "image": "assets/img/portfolio/lkts.png",
+      "category": "Tracking System",
+      "Role": "Backend Developer",
+      "technologies": "React, DRF,Celery, PostgreSQL",
+      "key_features": [
+        {
+            "feature": "Integrated Dashbaord for admin to manage and monitor shipments, update delivery statuses, and oversee operational controls efficiently. Provided real-time insights and analytics to streamline logistics and improve service delivery.",
+            "heading":"Dashboard",
+            "icon": "bi-speedometer2"
+        },
+        {
+            "feature": "Bulk data upload functionality to allow admins to upload and process large datasets of shipment information via CSV,Excel files. Implemented validation checks to ensure data integrity, consistency, and accuracy throughout the upload process, enhancing operational efficiency and reducing manual effort.",
+            "heading":"Bulk data Upload",
+            "icon": "bi-file-earmark-arrow-up"
+        }
+      ]
+    },
+    "personal": {
+      "title": "Personal Projects",
+      "overview": "Built several full-stack applications to explore real-world solutions and sharpen development skills. Notable projects include a feature-rich e-commerce platform with cart, checkout, payments, and order tracking, and a job portal system with role-based access for employers and candidates, job filtering, and application management. These projects showcase my ability to build scalable, user-centric web applications from the ground up.",
+      "image": "assets/img/portfolio/persproj.jpg",
+      "category": "Personal",
+      "Role": "Full Stack Developer",
+      "technologies": "React, DRF,Celery, PostgreSQL",
+      "key_features": [
+        {
+          "feature": "Developed a full-featured e-commerce platform for selling earphones during internship, including user authentication, product catalog, shopping cart, checkout, and order tracking. Implemented secure payment processing and an admin panel for inventory and order management, ensuring smooth operations and a seamless shopping experience.",
+          "heading": "E-commerce Platform",
+          "icon": "bi-cart-check"
+        },
+        {
+          "feature": "Built a job portal system with role-based access for employers and candidates. Implemented job posting, application management, resume uploads, and job filtering features. Developed an admin panel to oversee user activities, job listings, and site analytics, ensuring efficient platform management and enhanced user experience.",
+          "heading": "Job Portal",
+          "icon": "bi-briefcase"
+        }
+      ]
+    }
+    
+  }
+}
